@@ -2410,7 +2410,7 @@ Scheme
 			}
 		}
 	////////////////// CUSTOM FONTS /////////////////////////////
-		RailroadFont
+		RailroadFontGiant
 		{
 			"1"
 			{
@@ -2421,7 +2421,89 @@ Scheme
 			}
 		}
 		
-		SquaresBoldFont
+		RailroadFontBigger
+		{
+			"1"
+			{
+				"name"		"Railroader Regular"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		RailroadFontBig
+		{
+			"1"
+			{
+				"name"		"Railroader Regular"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		RailroadFontRegular
+		{
+			"1"
+			{
+				"name"		"Railroader Regular"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		RailroadFontSmall
+		{
+			"1"
+			{
+				"name"		"Railroader Regular"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		SquaresBoldGiant
+		{
+			"1"
+			{
+				"name"		"SquaresBold"
+				"tall"		"64"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		SquaresBoldBigger
+		{
+			"1"
+			{
+				"name"		"SquaresBold"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		SquaresBoldBig
+		{
+			"1"
+			{
+				"name"		"SquaresBold"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		SquaresBoldRegular
+		{
+			"1"
+			{
+				"name"		"SquaresBold"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		SquaresBoldSmall
 		{
 			"1"
 			{
@@ -2431,7 +2513,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
 	}
 	
 	//////////////////// CUSTOM FONTS /////////////////////////

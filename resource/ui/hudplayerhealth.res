@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"200"		[$WIN32]
+		"xpos"			"c-250"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"r220"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
@@ -19,7 +19,26 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
+	}
+	
+	"RobinTeamColor"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"RobinTeamColor"
+		"xpos"			"c-184"
+		"ypos"			"c"
+		"zpos"			"10"		
+		"wide"			"88"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/bg_black"	
+		"teambg_1"			"replay/thumbnails/bg_black"
+		"teambg_2"			"replay/thumbnails/bg_red"
+		"teambg_3"			"replay/thumbnails/bg_blue"
 	}	
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -86,9 +105,27 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"RailroadFont"
-		"fgcolor"		"White"
-	}								
+		"font"			"RailroadFontGiant"
+		"fgcolor"		"TanLight"
+	}
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"78"
+		"xpos_minmode"	"61"
+		"ypos"			"54"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"RailroadFontGiant"
+		"fgcolor"		"Black"
+	}	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -141,7 +178,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
-		"xpos"			"85"
+		"xpos"			"c-100"
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -157,8 +194,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"c"
+		"xpos_minmode"	"c"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
