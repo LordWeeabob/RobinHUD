@@ -2495,6 +2495,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		SquaresBold20
+		{
+			"1"
+			{
+				"name"		"SquareFont"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		SquaresBoldRegular
 		{
 			"1"
