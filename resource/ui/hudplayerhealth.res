@@ -26,9 +26,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-190"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
+		"xpos_minmode"	"c-190"		[$WIN32]
 		"ypos"			"r220"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"ypos_minmode"	"r220"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
@@ -75,7 +75,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"17"
-		"xpos_minmode"	"61"
+		"xpos_minmode"	"17"
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
@@ -93,7 +93,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
 		"xpos"			"19"
-		"xpos_minmode"	"61"
+		"xpos_minmode"	"19"
 		"ypos"			"54"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
