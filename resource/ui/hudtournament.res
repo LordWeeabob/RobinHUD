@@ -555,7 +555,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"WhiteS"
+		"fillcolor"		"Black"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -582,7 +582,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"WhiteS"
+		"fillcolor"		"Black"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -609,7 +609,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"WhiteS"
+		"fillcolor"		"Black"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -636,7 +636,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"WhiteS"
+		"fillcolor"		"Black"
 
 
 		"src_corner_height"	"23"				// pixels inside the image

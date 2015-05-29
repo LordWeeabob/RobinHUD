@@ -25,15 +25,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-190"		[$WIN32]
-		"xpos_minmode"	"c-190"		[$WIN32]
-		"ypos"			"r220"	[$WIN32]
-		"ypos_minmode"	"r220"	[$WIN32]
+		"xpos"			"0"		[$WIN32]
+		"xpos_minmode"	"0"		[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"ypos_minmode"	"0"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"500"
-		"tall"			"120"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -54,14 +54,31 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
-	}		
+	}
+	"RobinTeamColor"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"RobinTeamColor"
+		"xpos"			"c-172"
+		"ypos"			"c113"
+		"zpos"			"7"		
+		"wide"			"76"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/bg_black"	
+		"teambg_1"			"replay/thumbnails/bg_black"
+		"teambg_2"			"replay/thumbnails/bg_red"
+		"teambg_3"			"replay/thumbnails/bg_blue"
+	}	
 		
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"100"	
-		"ypos"			"55" 	
+		"xpos"			"c-80"	
+		"ypos"			"c70" 	
 		"zpos"			"4"
 		"wide"			"0"		//76	
 		"tall"			"0"		//76
@@ -74,11 +91,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"17"
-		"xpos_minmode"	"17"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"6"
+		"xpos"			"c-170"
+		"xpos_minmode"	"c-170"
+		"ypos"			"c70"	[$WIN32]
+		"ypos_minmode"	"c70"
+		"zpos"			"-1"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
@@ -92,11 +109,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"19"
-		"xpos_minmode"	"19"
-		"ypos"			"54"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"6"
+		"xpos"			"c-168"
+		"xpos_minmode"	"c-168"
+		"ypos"			"c72"	[$WIN32]
+		"ypos_minmode"	"c72"
+		"zpos"			"-2"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"

@@ -4457,7 +4457,7 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/fonts/Square_Bold_Free.otf"
+			"font" "resource/fonts/Square.otf"
 			"name" "SquaresBold"
 		}
 	}

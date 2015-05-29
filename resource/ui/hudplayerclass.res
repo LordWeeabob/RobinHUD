@@ -11,7 +11,7 @@
 		"ypos_minmode"	"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"		
 	}
@@ -113,23 +113,7 @@
 		"scaleImage"	"0"
 		
 	}
-	"RobinTeamColor"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"RobinTeamColor"
-		"xpos"			"c-172"
-		"ypos"			"c113"
-		"zpos"			"10"		
-		"wide"			"76"
-		"tall"			"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/bg_black"	
-		"teambg_1"			"replay/thumbnails/bg_black"
-		"teambg_2"			"replay/thumbnails/bg_red"
-		"teambg_3"			"replay/thumbnails/bg_blue"
-	}
+	
 	
 
 	"classmodelpanel"

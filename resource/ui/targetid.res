@@ -98,7 +98,7 @@
 		"xpos"			"8"
 		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
+		"ypos_minmode"	"15"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
@@ -137,8 +137,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"xpos_minmode"	"30"
+		"xpos"			"60"
+		"xpos_minmode"	"40"
 		"ypos"			"20"
 		"ypos_minmode"	"19"
 		"zpos"			"12"
