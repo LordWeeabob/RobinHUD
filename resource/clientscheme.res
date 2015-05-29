@@ -20,9 +20,11 @@ Scheme
 	{
 		//RobinHuD Colors
 		"RobinRed"			"221 27 27 225"
-		
-		
-		
+		"RobinBlue" 		"71 168 198 180"
+		"HudBGStatus"		"0 0 0 0"
+		"BgColor" 			"TransparentBlack"
+		"WhiteS"			"225 225 225 255"
+		"Buff"				"71 168 198 255"
 		
 		
 		
@@ -2467,7 +2469,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SquaresBold"
+				"name"		"SquareFont"
 				"tall"		"64"
 				"weight"	"500"
 				"antialias" "1"
@@ -2477,7 +2479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SquaresBold"
+				"name"		"SquareFont"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias" "1"
@@ -2487,7 +2489,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SquaresBold"
+				"name"		"SquareFont"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias" "1"
@@ -2497,7 +2499,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SquaresBold"
+				"name"		"SquareFont"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
@@ -2507,12 +2509,23 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SquaresBold"
+				"name"		"SquareFont"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias" "1"
 			}
 		}
+		SquaresBoldSmaller
+		{
+			"1"
+			{
+				"name"		"SquareFont"
+				"tall"		"6"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 	}
 	
 	//////////////////// CUSTOM FONTS /////////////////////////

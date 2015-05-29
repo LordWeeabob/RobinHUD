@@ -1,42 +1,44 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
+	"HealthBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"HealthBG"
+		"xpos"		"64"		[$OSX]
+		"xpos"		"54"		[!$OSX]	
+		"ypos"		"133"		[$OSX]
+		"ypos"		"135"		[!$OSX]	
+		"zpos"		"1"
+		"wide"		"106"		[$OSX]
+		"wide"		"120"		[!$OSX]
+		"tall"		"45"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"		"HudBGStatus"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+    }
 	// player health data
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-250"		[$WIN32]
+		"xpos"			"c-190"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"r220"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"500"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}
-	
-	"RobinTeamColor"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"RobinTeamColor"
-		"xpos"			"c-184"
-		"ypos"			"c"
-		"zpos"			"10"		
-		"wide"			"88"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/bg_black"	
-		"teambg_1"			"replay/thumbnails/bg_black"
-		"teambg_2"			"replay/thumbnails/bg_red"
-		"teambg_3"			"replay/thumbnails/bg_blue"
 	}	
 	
 	"PlayerStatusHealthImage"
@@ -53,48 +55,26 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"-1000"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
-		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"0"	
-	}	
+		
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
-		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
-		"visible"		"1"
+		"xpos"			"100"	
+		"ypos"			"55" 	
+		"zpos"			"4"
+		"wide"			"0"		//76	
+		"tall"			"0"		//76
+		"visible"		"1"			//overheal cross
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"17"
 		"xpos_minmode"	"61"
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
@@ -112,7 +92,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"78"
+		"xpos"			"19"
 		"xpos_minmode"	"61"
 		"ypos"			"54"	[$WIN32]
 		"ypos"			"55"	[$X360]
