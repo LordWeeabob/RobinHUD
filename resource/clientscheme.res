@@ -19,13 +19,13 @@ Scheme
 	Colors
 	{
 		//RobinHuD Colors
-		"RobinRed"			"221 27 27 225"
-		"RobinBlue" 		"71 168 198 180"
+		"RobinRed"			"217 49 49 127"
+		"RobinBlue" 		"79 136 230 127"
 		"HudBGStatus"		"0 0 0 0"
 		"BgColor" 			"TransparentBlack"
 		"WhiteS"			"225 225 225 255"
 		"Buff"				"71 168 198 255"
-		
+		"RobinGreen"		"110 213 94 200"
 		
 		
 		
@@ -2412,6 +2412,17 @@ Scheme
 			}
 		}
 	////////////////// CUSTOM FONTS /////////////////////////////
+		MSMainMenu
+		{
+			"1"
+			{
+				"name" 			"Mobile Sans"
+				"tall"			"16"
+				"weight"		"500"
+				"antialias"		"1"
+			
+			}
+		}
 		RailroadFontGiant
 		{
 			"1"
@@ -2535,7 +2546,66 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		FFBig
+		{
+			"1"
+			{
+				"name"		"ForgottenFuturistRg-Regular"
+				"tall" 		"24"
+				"weight" 	"500"
+				"antialias"	"1"
+			}
+		}
+		FFRegular
+		{
+			"1"
+			{
+				"name"		"ForgottenFuturistRg-Regular"
+				"tall" 		"16"
+				"weight" 	"500"
+				"antialias"	"1"
+			}
+		}
+		FFSmall
+		{
+			"1"
+			{
+				"name"		"ForgottenFuturistRg-Regular"
+				"tall" 		"12"
+				"weight" 	"500"
+				"antialias"	"1"
+			}
+		}
+		FFSmaller
+		{
+			"1"
+			{
+				"name"		"ForgottenFuturistRg-Regular"
+				"tall" 		"8"
+				"weight" 	"500"
+				"antialias"	"1"
+			}
+		}
+		FFBigger
+		{
+			"1"
+			{
+				"name"		"ForgottenFuturistRg-Regular"
+				"tall" 		"36"
+				"weight" 	"500"
+				"antialias"	"1"
+			}
+		}
+		FFGiant
+		{
+			"1"
+			{
+				"name"		"ForgottenFuturistRg-Regular"
+				"tall" 		"48"
+				"weight" 	"500"
+				"antialias"	"1"
+			}
+		}
 	}
 	
 	//////////////////// CUSTOM FONTS /////////////////////////
@@ -4459,6 +4529,16 @@ Scheme
 		{
 			"font" "resource/fonts/Square.otf"
 			"name" "SquaresBold"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/forgotten_futurist_rg.ttf"
+			"name"	"ForgottenFuturistRg-Regular"
+		}
+		"11"
+		{
+			"font"	"resource/fonts/Mobile Sans.ttf"
+			"name"	"Mobile Sans"
 		}
 	}
 }

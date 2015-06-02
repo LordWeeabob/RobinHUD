@@ -41,16 +41,14 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"0"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
+		"wide"	"f0"
+		"tall"	"f0"
 		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
+		"blue_active_xpos"			"378"
 	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"red_active_xpos"			"432"
 	}	
 
 	HudItemEffectMeter
@@ -59,11 +57,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -75,14 +69,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos_minmode"	"c-70"	[$WIN32]
-		"ypos"			"c120"	[$WIN32]
-		"ypos_minmode"	"c120"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	
 	HudDemomanCharge
@@ -90,16 +80,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -198,11 +183,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"c35"	[$WIN32]
+		"ypos"					"c-20"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -213,12 +195,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-140"
+		"ypos"					"c"
+		"wide"					"f0"
+		"tall"  				"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -257,11 +237,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c100"
-		"ypos"		"220"
-		"zpos"		"0"
+		"ypos"		"275"
+		"zpos"		"2"
 		"wide"	 	"500"
 		"tall"	 	"300"
-		"tall_minmode"	 	"54"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -281,7 +260,6 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -295,10 +273,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"175"
+		"ypos"		"225"
+		"zpos"		"0"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -373,10 +351,10 @@
 	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
-		"xpos"	"c-20"
-		"ypos"	"440"
-		"wide"	"120"
-		"tall"  "40"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"  "f0"
 		"visible" "1"
 		"enabled" "1"
 		
@@ -386,7 +364,7 @@
 
 		"icon_xpos"		"0"
 		"icon_ypos"		"2"
-		"digit_xpos"	"34"
+		"digit_xpos"	"100"
 		"digit_ypos"	"2"
 	}
 
@@ -500,8 +478,8 @@
 		
 		"TextFont"		"Default"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"TeamBlue"
+		"TeamRed"		"TeamRed"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
@@ -861,7 +839,7 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"c-110"
 		"ypos"					"215"
 		"wide"					"300"
 		"tall"					"300"

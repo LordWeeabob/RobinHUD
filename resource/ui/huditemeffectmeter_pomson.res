@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+"Resource/UI/HudItemEffectMeter_Pomson.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,7 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c60"	[$WIN32]
-		"ypos"			"c100"	[$WIN32]
+		"ypos"			"c108"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r124"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -22,8 +24,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"visible_minmode"	"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
@@ -37,8 +38,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"-1"
+		"xpos"					"65"
+		"ypos"					"12"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -54,6 +55,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"SquaresBoldSmall"
+		"fgcolor"				"WhiteS"
 	}
 
 	"ItemEffectMeter"

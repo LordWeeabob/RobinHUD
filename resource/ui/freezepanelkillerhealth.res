@@ -1,4 +1,4 @@
-"Resource/UI/SpectatorGUIHealth.res"
+"Resource/UI/FreezePanelKillerHealth.res"
 {
 	"PlayerStatusHealthImage"
 	{
@@ -11,13 +11,13 @@
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"0"	
+		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"1000"
+		"xpos"			"5000"
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"22"
@@ -30,21 +30,22 @@
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"0"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"1"
 		"ypos"			"2"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"0"
 		"enabled"		"0"
+		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"1000"
+		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"22"
@@ -58,32 +59,15 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-6"
-		"ypos"			"3"
+		"font"			"SquaresBoldRegular"
+		"xpos"			"-10"
+		"ypos"			"7"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"%health%"
-		"font"			"SquaresBoldRegular"
-		"textAlignment"	"center"	
-	}
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"	[$WIN32]
-		"ypos"			"0"	[$X360]
-		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"12"
+		"labeltext"		"%Health%"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
-	}							
+	}								
 }

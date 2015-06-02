@@ -29,8 +29,6 @@
 		"xpos_minmode"	"0"		[$WIN32]
 		"ypos"			"0"	[$WIN32]
 		"ypos_minmode"	"0"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -45,24 +43,24 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"xpos"			"c-185"
+		"ypos"			"c"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
 	}
-	"RobinTeamColor"
+	"RobinTeamColorLeft"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"RobinTeamColor"
+		"fieldName"		"RobinTeamColorLeft"
 		"xpos"			"c-172"
+		"xpos_lodef"	"c-170"
 		"ypos"			"c113"
 		"zpos"			"7"		
-		"wide"			"76"
+		"wide"			"79"
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -71,17 +69,18 @@
 		"teambg_1"			"replay/thumbnails/bg_black"
 		"teambg_2"			"replay/thumbnails/bg_red"
 		"teambg_3"			"replay/thumbnails/bg_blue"
-	}	
+	}
+	
 		
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c-80"	
-		"ypos"			"c70" 	
+		"xpos"			"c-90"	
+		"ypos"			"c67" 	
 		"zpos"			"4"
-		"wide"			"0"		//76	
-		"tall"			"0"		//76
+		"wide"			"10"		//76	
+		"tall"			"10"		//76
 		"visible"		"1"			//overheal cross
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -109,10 +108,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"c-168"
-		"xpos_minmode"	"c-168"
-		"ypos"			"c72"	[$WIN32]
-		"ypos_minmode"	"c72"
+		"xpos"			"c-169"
+		"xpos_minmode"	"c-169"
+		"ypos"			"c71"	[$WIN32]
+		"ypos_minmode"	"c71"
 		"zpos"			"-2"
 		"wide"			"100"
 		"tall"			"50"
@@ -191,9 +190,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
-		"xpos"			"c"
-		"xpos_minmode"	"c"
-		"ypos"			"0"
+		"xpos"			"c0"
+		"ypos"			"c80"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -207,8 +205,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
