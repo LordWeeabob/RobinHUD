@@ -4,46 +4,29 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
+		"xpos"				"61"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"f0"
-		"tall"				"f0"
+		"wide"				"125"
+		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
 		
-		"TimePanelBG"
-		{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TimePanelBG"
-		"xpos"			"c-49"
-		"ypos"			"c-240"
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"	
-		"scaleImage"		"1"	
-		}
+		
+		
+		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"SquaresBoldRegular"
+			"font"			"SquaresBoldSmall"
 			"fgcolor"		"TeamBlue"
-			"xpos"			"c-51"
-			"ypos"			"c-246"
+			"xpos"			"32"	//3
+			"ypos"			"-3"		[$OSX]
+			"ypos"			"-4"		[$WIN32]
 			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
+			"wide"			"88"	//88
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -55,48 +38,26 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"0"
+		"xpos"				"109"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"f0"
-		"tall"				"f0"
+		"wide"				"125"
+		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
-		
-		
-		"TimePanelBG"
-		{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"KOTHRedTimePanelBG"
-		"xpos"			"c5"
-		"ypos"			"c-240"
-		"zpos"			"0"
-		"wide"			"40"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"	
-		"scaleImage"		"1"	
-		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"SquaresBoldRegular"
-			"fgcolor"		"255 64 64 255"
-			"xpos"			"c3"
-			"ypos"			"c-246"
+			"font"			"SquaresBoldSmall"
+			"fgcolor"		"TeamRed"
+			"xpos"			"32"
+			"ypos"			"-3"		[$OSX]
+			"ypos"			"-4"		[$WIN32]
 			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
+			"wide"			"88"
+			"tall"			"22"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -108,14 +69,13 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"c"
-		"ypos"				"c-220"
-		"zpos"				"-1"
-		"wide"				"40"
+		"xpos"				"0"
+		"ypos"				"12"	//22
+		"zpos"				"3"
+		"wide"				"32"
 		"tall"				"3"
+		"fillcolor"		"255 255 255 255"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"255 255 255 255"
-		"scaleImage"		"1"	
 	}
 }

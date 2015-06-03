@@ -9,8 +9,8 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"	
 		"teambg_2"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name

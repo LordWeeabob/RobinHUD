@@ -54,11 +54,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "WhiteS"
-				"armedFgColor_override" "255 222 0 255"
+				"armedFgColor_override" "HudRedTeam"
 				"depressedFgColor_override" "WhiteS"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"255 222 0 255"
+				"image_armedcolor"	"HudRedTeam"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -222,7 +222,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"24"
 		"zpos"			"-99"
 		"wide"			"150"
@@ -330,7 +330,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 222 0 255"
+			"fgcolor_override"	"HudRedTeam"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -339,7 +339,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"130"
 		"zpos"			"12"
 		"wide"			"130"
@@ -380,11 +380,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -513,7 +513,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
-				"fgcolor_override"	"255 222 0 255"
+				"fgcolor_override"	"HudRedTeam"
 				"bgcolor_override"	"141 178 61 255"
 			}
 		}
@@ -551,7 +551,7 @@
 			//"defaultFgColor_override" "235 226 202 255"
 			//"armedFgColor_override" "WhiteS"
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -744,7 +744,7 @@
 			
 			"defaultFgColor_override" "235 226 202 255"
 			"defaultBgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "235 226 202 255"
 		}	
 		
@@ -996,7 +996,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1064,7 +1064,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"230"
 		"zpos"			"11"
 		"wide"			"135"
@@ -1105,11 +1105,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1130,7 +1130,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"270"
 		"zpos"			"11"
 		"wide"			"135"
@@ -1172,11 +1172,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1202,7 +1202,7 @@
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 
 		"navUp"			"ReplayBrowserButton"
@@ -1238,11 +1238,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1264,7 +1264,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"250"
 		"zpos"			"11"
 		"wide"			"130"
@@ -1305,11 +1305,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1330,7 +1330,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"210"
 		"zpos"			"11"
 		"wide"			"135"
@@ -1372,11 +1372,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1411,7 +1411,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"190"
 		"zpos"			"11"
 		"wide"			"130"
@@ -1452,11 +1452,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1548,7 +1548,7 @@
 		"zpos"			"-1"
 		"wide"			"260"
 		"tall"			"38"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
@@ -1558,7 +1558,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c-4000"
+		"xpos"			"c-3600"
 		"ypos"			"390"
 		"wide"			"250"
 		"tall"			"20"
@@ -1580,7 +1580,7 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "WhiteS"
-		"armedFgColor_override" "255 222 0 255"
+		"armedFgColor_override" "HudRedTeam"
 		"depressedFgColor_override" "WhiteS"
 	}
 	"FreeTrialPanel"
@@ -1669,7 +1669,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"110"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1708,11 +1708,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 
 			"SubImage"
 			{
@@ -1735,7 +1735,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"130"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1774,11 +1774,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 
 			"SubImage"
 			{
@@ -1801,7 +1801,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"150"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1841,11 +1841,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 
 			"SubImage"
 			{
@@ -1868,7 +1868,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"170"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1908,11 +1908,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 
 			"SubImage"
 			{
@@ -1937,7 +1937,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"150"
 		"zpos"			"11"
 		"wide"			"130"
@@ -1978,11 +1978,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 
 			"SubImage"
 			{
@@ -2005,7 +2005,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"170"
 		"zpos"			"11"
 		"wide"			"270"
@@ -2045,11 +2045,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 
 			"SubImage"
 			{
@@ -2110,11 +2110,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			
 			"SubImage"
 			{
@@ -2179,7 +2179,7 @@
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			
 			"SubImage"
 			{
@@ -2245,7 +2245,7 @@
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			
 			"SubImage"
 			{
@@ -2297,7 +2297,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-400"
+		"xpos"			"c-340"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"20"
@@ -2344,7 +2344,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-383"
+		"xpos"			"c-323"
 		"ypos"			"437"
 		"zpos"			"3"
 		"wide"			"20"
@@ -2391,7 +2391,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-365"
+		"xpos"			"c-305"
 		"ypos"			"437"
 		"zpos"			"4"
 		"wide"			"20"
@@ -2438,7 +2438,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-346"
+		"xpos"			"c-286"
 		"ypos"			"437"
 		"zpos"			"5"
 		"wide"			"20"
@@ -2485,7 +2485,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-330"
+		"xpos"			"c-270"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"20"
@@ -2531,7 +2531,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TF2SettingsButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"310"
 		"zpos"			"11"
 		"wide"			"130"
@@ -2572,11 +2572,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2597,7 +2597,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SettingsButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"290"
 		"zpos"			"11"
 		"wide"			"130"
@@ -2638,11 +2638,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2663,7 +2663,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"330"
 		"zpos"			"11"
 		"wide"			"130"
@@ -2704,11 +2704,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2729,7 +2729,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"330"
 		"zpos"			"11"
 		"wide"			"130"
@@ -2769,11 +2769,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"HudRedTeam"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2816,7 +2816,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"255 222 0 255"
+		"image_drawcolor"	"HudRedTeam"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2933,11 +2933,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "WhiteS"
-				"armedFgColor_override" "255 222 0 255"
+				"armedFgColor_override" "HudRedTeam"
 				"depressedFgColor_override" "WhiteS"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"255 222 0 255"
+				"image_armedcolor"	"HudRedTeam"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -2981,7 +2981,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3101,11 +3101,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "WhiteS"
-				"armedFgColor_override" "255 222 0 255"
+				"armedFgColor_override" "HudRedTeam"
 				"depressedFgColor_override" "WhiteS"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"255 222 0 255"
+				"image_armedcolor"	"HudRedTeam"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3149,7 +3149,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3261,7 +3261,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3373,7 +3373,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3399,7 +3399,7 @@
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"LoadoutHighlightPanel"
-		"xpos"			"c-400"
+		"xpos"			"c-360"
 		"ypos"			"280"
 		"zpos"			"100"
 		"wide"			"250"
@@ -3485,7 +3485,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3597,7 +3597,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "HudRedTeam"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3783,11 +3783,11 @@
 					"paintbackground"	"0"
 			
 					"defaultFgColor_override" "WhiteS"
-					"armedFgColor_override" "255 222 0 255"
+					"armedFgColor_override" "HudRedTeam"
 					"depressedFgColor_override" "WhiteS"
 			
 					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"255 222 0 255"
+					"image_armedcolor"	"HudRedTeam"
 
 					"SubImage"
 					{
@@ -3850,11 +3850,11 @@
 					"paintbackground"	"0"
 			
 					"defaultFgColor_override" "WhiteS"
-					"armedFgColor_override" "255 222 0 255"
+					"armedFgColor_override" "HudRedTeam"
 					"depressedFgColor_override" "WhiteS"
 			
 					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"255 222 0 255"
+					"image_armedcolor"	"HudRedTeam"
 
 					"SubImage"
 					{
@@ -3959,7 +3959,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override" "255 222 0 255"
+					"fgcolor_override" "HudRedTeam"
 					"proportionaltoparent"	"1"
 					"wrap"			"1"
 				}
@@ -4031,11 +4031,11 @@
 						"paintbackground"	"0"
 			
 						"defaultFgColor_override" "WhiteS"
-						"armedFgColor_override" "255 222 0 255"
+						"armedFgColor_override" "HudRedTeam"
 						"depressedFgColor_override" "WhiteS"
 			
 						"image_drawcolor"	"117 107 94 255"
-						"image_armedcolor"	"255 222 0 255"
+						"image_armedcolor"	"HudRedTeam"
 
 						"SubImage"
 						{

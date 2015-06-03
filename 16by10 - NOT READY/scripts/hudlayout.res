@@ -41,13 +41,14 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-160"
+		"xpos"	"0"
 		"ypos"	"0"
-		"wide"	"300"
-		"tall"	"480"
+		"wide"	"f0"
+		"tall"	"f0"
 		
-		"blue_active_xpos"			"121"	//59
-		"red_active_xpos"			"169"	//227
+		"blue_active_xpos"			"378"
+	
+		"red_active_xpos"			"432"
 	}	
 
 	HudItemEffectMeter
@@ -182,7 +183,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c35"	[$WIN32]
+		"xpos"					"c45"	[$WIN32]
 		"ypos"					"c-20"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
