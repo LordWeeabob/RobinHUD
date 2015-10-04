@@ -60,11 +60,8 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"26"
 			"ypos"			"12"
-			"ypos_minmode"	"12"
 			"wide"			"14"
-			"wide_minmode"	"14"
 			"tall"			"14"
-			"tall_minmode"	"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/ico_stickybomb_red"
@@ -78,9 +75,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"42"
-			"xpos_minmode"	"42"
 			"ypos"			"12"
-			"ypos_minmode"	"12"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -95,8 +90,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"RailroadFontRegular"
-			"font_minmode"	"RailRoadFontRegular"
-			"font_lodef"	"HudFontMediumBig"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -120,8 +113,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"RailRoadFontRegular"
-			"font_minmode"	"RailRoadFontRegular"
-			"font_lodef"	"RailRoadFontRegular"
 			"fgcolor"		"black"
 		}		
 	}
