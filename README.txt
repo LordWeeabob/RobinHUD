@@ -1,0 +1,1 @@
+To install just drag the "RobinHUD" folder into your "Team Fortress 2/tf/custom" folder. If you have some dumb resolution that isn't 16:9 look for the associated folder and drag its contents into the "RobinHUD" folder and when it asks to replace say yes.
