@@ -23,6 +23,7 @@ Scheme
 		"RobinBlue" 		"0 153 255 255"
 		"WhiteS"			"225 225 225 255"
 		"Buff"				"71 168 198 255"
+		"Overheal"			"0 255 0 255"
 		"RobinGreen"		"110 213 94 200"
 		"RobinYellow"		"255 222 0 255"
 		
