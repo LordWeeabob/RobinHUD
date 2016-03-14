@@ -16,15 +16,15 @@
 		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
 		"spacer"			"5"
-		"name_width"		"118"	[$WIN32]
+		"name_width"		"100"	[$WIN32]
 		"name_width_short"	"85"	[$WIN32]		
 		"status_width"		"15"	[$WIN32]
-		"nemesis_width"		"15"	[$WIN32]
+		"nemesis_width"		"50"	[$WIN32]
 		"class_width"		"15"	[$WIN32]
-		"score_width"		"25"
-		"ping_width"		"23"	[$WIN32]
-		"stats_width"		"30"
-		"killstreak_width"	"20"
+		"score_width"		"30"
+		"ping_width"		"15"	[$WIN32]
+		"stats_width"		"15"
+		"killstreak_width"	"15"
 	}
 	"BlueScoreBG"
 	{
