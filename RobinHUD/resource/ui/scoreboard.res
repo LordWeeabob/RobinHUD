@@ -87,15 +87,14 @@
 			"tall"			"448"
 		}
 	}							
-	"BlueTeamLabel"
+	"BlueTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamLabel1"
 		"font"			"FFGiant"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"10" [!$OSX]
-		"xpos"			"15" [$OSX]
+		"xpos"			"10"
 		"ypos"			"71"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"
@@ -117,10 +116,9 @@
 		"font"			"FFGiant"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"11" [!$OSX]
-		"xpos"			"15" [$OSX]
+		"xpos"			"11"
 		"ypos"			"72"	[$WIN32]
-		"zpos"			"3"
+		"zpos"			"4"
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"		"0"
@@ -204,10 +202,10 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"RedTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamLabel1"
 		"font"			"FFGiant"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -1038,7 +1036,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"FFGiant"
+			"font"			"FFBig"
 			"labelText"		":"
 			"textAlignment"		"east"
 			"xpos"			"263"
@@ -1106,7 +1104,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"FFGiant"
+			"font"			"FFBig"
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
 			"xpos"			"240"
@@ -1123,7 +1121,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"FFGiant"
+			"font"			"FFBig"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"327"
