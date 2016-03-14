@@ -7,7 +7,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"31"
 		"wide"			"640"
-		"tall"			"448"
+		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -15,6 +15,7 @@
 		"tabPosition"		"0"
 		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
+		"spacer"			"5"
 		"name_width"		"118"	[$WIN32]
 		"name_width_short"	"85"	[$WIN32]		
 		"status_width"		"15"	[$WIN32]
@@ -49,7 +50,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"320"
+		"xpos"			"319"
 		"ypos"			"87"
 		"wide"			"320"
 		"tall"			"25"
@@ -335,7 +336,7 @@
 		"font"			"SquaresBoldSmall"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
-		"xpos"			"75"
+		"xpos"			"100"
 		"ypos"			"73"
 		"wide"			"300"
 		"tall"			"20"
@@ -344,6 +345,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
+		"fgcolor"		"White"
 		
 		if_mvm
 		{
@@ -358,9 +360,7 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"250"
-		"xpos_hidef"	"51"
 		"ypos"			"73"
-		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -368,6 +368,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
+		"fgcolor"		"White"
 		
 		if_mvm
 		{
@@ -714,19 +715,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"FFSmall"
+		"font"			"SquaresBoldBig"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
-		"xpos"			"260"
-		"ypos"			"73"
+		"xpos"			"470"
+		"ypos"			"450"
 		"zpos"			"3"
 		"wide"			"165"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"236 227 203 255"
+		"fgcolor"		"White"
 
 		if_mvm
 		{
@@ -1091,8 +1092,8 @@
 			"font"			"FFSmall"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
-			"ypos"			"-5"	[$WIN32]
+			"xpos"			"150"
+			"ypos"			"15"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1178,8 +1179,8 @@
 			"font"			"FFSmall"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
-			"xpos"			"180"
-			"ypos"			"-5"	[$WIN32]
+			"xpos"			"255"
+			"ypos"			"15"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1570,8 +1571,8 @@
 			"font"			"FFSmall"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
-			"xpos"			"150"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"xpos"			"75"	[$WIN32]
+			"ypos"			"-5"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1584,10 +1585,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"FFSmaller"
+			"font"			"FFRegular"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"		[$WIN32]
-			"xpos"			"247"	[$WIN32]
+			"xpos"			"150"	[$WIN32]
 			"ypos"			"16"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"

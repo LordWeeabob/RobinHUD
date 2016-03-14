@@ -57,9 +57,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -67,7 +67,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"TeamRed"
+		"image_drawcolor"		"RobinYellow"
 		"image_armedcolor"		"255 255 255 255"
 		"image_selectedcolor"	"255 255 255 255"
 		
@@ -112,11 +112,11 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"SquaresBoldSmall"
-		"fgcolor"			"TeamRed"
-			"defaultFgColor_override" "TeamRed"
-		"armedFgColor_override" "TeamRed"
-		"depressedFgColor_override" "TeamRed"
-		"selectedFgColor_override" "TeamRed"
+		"fgcolor"			"RobinYellow"
+			"defaultFgColor_override" "RobinYellow"
+		"armedFgColor_override" "RobinYellow"
+		"depressedFgColor_override" "RobinYellow"
+		"selectedFgColor_override" "RobinYellow"
 	}
 		
 	"Offense"
@@ -170,9 +170,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -229,9 +229,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -288,9 +288,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -374,9 +374,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -433,9 +433,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -492,9 +492,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -578,9 +578,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -637,9 +637,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -696,9 +696,9 @@
 		
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -753,9 +753,9 @@
 		"font"			"SquaresBoldSmall"
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 	}
 	
 	"QuitButtonLetter"  
@@ -809,9 +809,9 @@
 		"font"			"SquaresBoldSmall"
 		"fgcolor"			"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "TeamRed"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "255 255 255 255"
-		"selectedFgColor_override" "TeamRed"
+		"selectedFgColor_override" "RobinYellow"
 	}
 	
 	"EditLoadoutButtonLetter"  
@@ -867,23 +867,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
 		"xpos"			"30"
-		"xpos_lodef"			"62"
-		"xpos_hidef"			"72"
 		"ypos"			"r40"
-		"ypos_lodef"			"r60"
-		"ypos_hidef"			"r54"
 		"zpos"			"5"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"450"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_lodef"	"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_SelectAClass"
+		"labelText"		"Select a class!"
 		"textAlignment"	"west"
-		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
+		"font"			"FFBigger"
+		"fgcolor"		"White"
 	}
 	
 	"MenuBG"
@@ -936,14 +931,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"0"
-		"ypos"			"r500"
+		"ypos"			"r50"
 		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"1000"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"0 0 0 250"
 	}		
 	
 	"Footer" [$X360]
@@ -1230,7 +1224,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
 		"font"			"Railroadfontregular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}	
 	
 	"numSoldier" 
@@ -1248,7 +1242,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}		
 	
 	"numPyro" 
@@ -1266,7 +1260,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}			
 	
 	"numDemoman" 
@@ -1283,7 +1277,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}				
 	
 	"numHeavy" 
@@ -1301,7 +1295,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}					
 	
 	"numEngineer" 
@@ -1319,7 +1313,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}						
 	
 	"numMedic" 
@@ -1337,7 +1331,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}							
 	
 	"numSniper" 
@@ -1355,7 +1349,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}						
 	
 	"numSpy" 
@@ -1373,7 +1367,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"east"
 		"font"			"RailroadFontRegular"
-		"fgcolor"		"TeamRed"
+		"fgcolor"		"RobinYellow"
 	}								
 	
 	"TFPlayerModel"

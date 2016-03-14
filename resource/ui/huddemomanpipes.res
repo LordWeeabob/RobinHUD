@@ -20,8 +20,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"RailRoadFontRegular"
-		"fgcolor"				"WhiteS"
+		"font"					"SquaresBoldSmall"
+		"fgcolor"				"White"
 	}
 
 	"ChargeMeter"
@@ -29,10 +29,10 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"20"
+		"xpos"					"1"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"60"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

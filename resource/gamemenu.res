@@ -14,6 +14,22 @@
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
+	"PlayCompetitiveButton"
+	{
+		"label" "Play Competitive" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu" "1"
+		"OnlyWhenCompetitiveEnabled" "1"
+	}
+	"CompetitiveButton"
+	{
+		"label" "Play Competitive" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu"	"1"
+		"OnlyWhenCompetitiveEnabled" "0"
+	}
 	"QuickplayChangeButton"
 	{
 		"label" "#MMenu_NewGame" 

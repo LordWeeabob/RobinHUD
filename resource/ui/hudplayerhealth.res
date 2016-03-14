@@ -63,14 +63,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"135"
-		"ypos"			"34"	[$WIN32]
+		"ypos"			"41"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"75"
 		"tall"			"43"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"north"	
+		"textAlignment"	"center"	
 		"font"			"RailroadFontGiant"
 		"fgcolor"		"WhiteS"
 	}
@@ -79,14 +79,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
 		"xpos"			"136"
-		"ypos"			"35"	[$WIN32]
+		"ypos"			"42"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"75"
 		"tall"			"43"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"north"	
+		"textAlignment"	"center"	
 		"font"			"RailroadFontGiant"
 		"fgcolor"		"Black"
 	}
@@ -444,8 +444,8 @@
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_warlock_hud"
 		"fgcolor"		"TanDark"

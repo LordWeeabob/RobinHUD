@@ -54,11 +54,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "WhiteS"
-				"armedFgColor_override" "255 222 0 255"
+				"armedFgColor_override" "RobinYellow"
 				"depressedFgColor_override" "WhiteS"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"255 222 0 255"
+				"image_armedcolor"	"RobinYellow"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -330,7 +330,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 222 0 255"
+			"fgcolor_override"	"RobinYellow"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -340,7 +340,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"c-400"
-		"ypos"			"130"
+		"ypos"			"150"
 		"zpos"			"12"
 		"wide"			"130"
 		"tall"			"25"
@@ -380,11 +380,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -513,7 +513,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
-				"fgcolor_override"	"255 222 0 255"
+				"fgcolor_override"	"RobinYellow"
 				"bgcolor_override"	"141 178 61 255"
 			}
 		}
@@ -551,7 +551,7 @@
 			//"defaultFgColor_override" "235 226 202 255"
 			//"armedFgColor_override" "WhiteS"
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -744,7 +744,7 @@
 			
 			"defaultFgColor_override" "235 226 202 255"
 			"defaultBgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "235 226 202 255"
 		}	
 		
@@ -847,7 +847,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c228"
+		"xpos"			"c187"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -1067,7 +1067,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1136,7 +1136,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
 		"xpos"			"c-400"
-		"ypos"			"230"
+		"ypos"			"250"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"25"
@@ -1176,11 +1176,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1202,7 +1202,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
 		"xpos"			"c-400"
-		"ypos"			"270"
+		"ypos"			"290"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"25"
@@ -1243,11 +1243,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1309,11 +1309,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1336,7 +1336,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"c-400"
-		"ypos"			"250"
+		"ypos"			"270"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -1376,11 +1376,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1402,7 +1402,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"c-400"
-		"ypos"			"210"
+		"ypos"			"230"
 		"zpos"			"11"
 		"wide"			"135"
 		"tall"			"36"
@@ -1443,11 +1443,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1483,7 +1483,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"c-400"
-		"ypos"			"190"
+		"ypos"			"210"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -1523,11 +1523,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1651,7 +1651,7 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "WhiteS"
-		"armedFgColor_override" "255 222 0 255"
+		"armedFgColor_override" "RobinYellow"
 		"depressedFgColor_override" "WhiteS"
 	}
 	"FreeTrialPanel"
@@ -1743,12 +1743,12 @@
 		"xpos"			"c-400"
 		"ypos"			"110"
 		"zpos"			"11"
-		"wide"			"270"
-		"tall"			"25"
+		"wide"			"100"
+		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
-		"navDown"		"PlayPVEButton"
+		"navDown"		"CreateServerButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 
@@ -1757,7 +1757,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-3"
 			"wide"			"250"
 			"tall"			"26"
 			"autoResize"	"0"
@@ -1779,11 +1779,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 
 			"SubImage"
 			{
@@ -1800,6 +1800,138 @@
 			}
 		}
 	}
+	"PlayCompetitiveButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"PlayCompetitiveButton"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"PaintBackgroundType"	"0"
+
+		"navDown"		"CreateServerButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"-3"
+			"wide"			"250"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"MSMainMenu"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "WhiteS"
+			"armedFgColor_override" "RobinYellow"
+			"depressedFgColor_override" "WhiteS"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"RobinYellow"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
+	"CompetitiveButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"CompetitiveButton"
+		"xpos"			"c-400"
+		"ypos"			"130"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"0"
+
+		"navDown"		"CreateServerButton"
+		"navRight"		"Notifications_ShowButtonPanel"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"-3"
+			"wide"			"250"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"MSMainMenu"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "WhiteS"
+			"armedFgColor_override" "RobinYellow"
+			"depressedFgColor_override" "WhiteS"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"RobinYellow"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
 
 	// command comes from GameMenu.res
 	"ResumeGameButton"
@@ -1845,11 +1977,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 
 			"SubImage"
 			{
@@ -1912,11 +2044,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 
 			"SubImage"
 			{
@@ -1940,7 +2072,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
 		"xpos"			"c-400"
-		"ypos"			"170"
+		"ypos"			"190"
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"25"
@@ -1979,11 +2111,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 
 			"SubImage"
 			{
@@ -2009,7 +2141,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"c-400"
-		"ypos"			"150"
+		"ypos"			"170"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"25"
@@ -2049,11 +2181,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 
 			"SubImage"
 			{
@@ -2116,11 +2248,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 
 			"SubImage"
 			{
@@ -2181,11 +2313,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			
 			"SubImage"
 			{
@@ -2250,7 +2382,7 @@
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			
 			"SubImage"
 			{
@@ -2316,7 +2448,7 @@
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			
 			"SubImage"
 			{
@@ -2603,7 +2735,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TF2SettingsButton"
 		"xpos"			"c-400"
-		"ypos"			"310"
+		"ypos"			"330"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"25"
@@ -2643,11 +2775,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2669,7 +2801,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SettingsButton"
 		"xpos"			"c-400"
-		"ypos"			"290"
+		"ypos"			"310"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -2709,11 +2841,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2735,7 +2867,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButton"
 		"xpos"			"c-400"
-		"ypos"			"330"
+		"ypos"			"350"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -2775,11 +2907,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2801,7 +2933,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
 		"xpos"			"c-400"
-		"ypos"			"330"
+		"ypos"			"350"
 		"zpos"			"11"
 		"wide"			"130"
 		"tall"			"36"
@@ -2840,11 +2972,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"255 222 0 255"
+			"image_armedcolor"	"RobinYellow"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2887,7 +3019,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"255 222 0 255"
+		"image_drawcolor"	"RobinYellow"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3004,11 +3136,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "WhiteS"
-				"armedFgColor_override" "255 222 0 255"
+				"armedFgColor_override" "RobinYellow"
 				"depressedFgColor_override" "WhiteS"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"255 222 0 255"
+				"image_armedcolor"	"RobinYellow"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3052,7 +3184,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3172,11 +3304,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "WhiteS"
-				"armedFgColor_override" "255 222 0 255"
+				"armedFgColor_override" "RobinYellow"
 				"depressedFgColor_override" "WhiteS"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"255 222 0 255"
+				"image_armedcolor"	"RobinYellow"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3220,7 +3352,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3332,7 +3464,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3444,7 +3576,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3556,7 +3688,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3668,7 +3800,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "WhiteS"
-			"armedFgColor_override" "255 222 0 255"
+			"armedFgColor_override" "RobinYellow"
 			"depressedFgColor_override" "WhiteS"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3854,11 +3986,11 @@
 					"paintbackground"	"0"
 			
 					"defaultFgColor_override" "WhiteS"
-					"armedFgColor_override" "255 222 0 255"
+					"armedFgColor_override" "RobinYellow"
 					"depressedFgColor_override" "WhiteS"
 			
 					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"255 222 0 255"
+					"image_armedcolor"	"RobinYellow"
 
 					"SubImage"
 					{
@@ -3921,11 +4053,11 @@
 					"paintbackground"	"0"
 			
 					"defaultFgColor_override" "WhiteS"
-					"armedFgColor_override" "255 222 0 255"
+					"armedFgColor_override" "RobinYellow"
 					"depressedFgColor_override" "WhiteS"
 			
 					"image_drawcolor"	"117 107 94 255"
-					"image_armedcolor"	"255 222 0 255"
+					"image_armedcolor"	"RobinYellow"
 
 					"SubImage"
 					{
@@ -4030,7 +4162,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override" "255 222 0 255"
+					"fgcolor_override" "RobinYellow"
 					"proportionaltoparent"	"1"
 					"wrap"			"1"
 				}
@@ -4102,11 +4234,11 @@
 						"paintbackground"	"0"
 			
 						"defaultFgColor_override" "WhiteS"
-						"armedFgColor_override" "255 222 0 255"
+						"armedFgColor_override" "RobinYellow"
 						"depressedFgColor_override" "WhiteS"
 			
 						"image_drawcolor"	"117 107 94 255"
-						"image_armedcolor"	"255 222 0 255"
+						"image_armedcolor"	"RobinYellow"
 
 						"SubImage"
 						{
