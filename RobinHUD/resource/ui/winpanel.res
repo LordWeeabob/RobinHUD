@@ -218,6 +218,7 @@
 		"tall"			"226"
 		"visible"		"0"
 		"enabled"		"0"
+		"fillcolor"		"0 0 0 250"
 		"scaleImage"		"1"	
 	}
 	"WinningTeamLabel"
@@ -350,7 +351,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
+		"fillcolor"		"0 0 0 250"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
