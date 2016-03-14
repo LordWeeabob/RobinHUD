@@ -17,7 +17,7 @@
 		"fieldName"		"TopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"0"	[$WIN32]
+		"tall"			"30"	[$WIN32]
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"WeblySleek16"
+		"font"			"FFBig"
 	}
 	"BuyBackLabel"
 	{
