@@ -1,0 +1,5 @@
+"Sprite"
+{
+	"$basetexture" "vgui/RobinHUD/robinlogo"
+	"$nolod" 1
+}

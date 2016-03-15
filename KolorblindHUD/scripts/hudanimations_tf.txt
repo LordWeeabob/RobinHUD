@@ -258,7 +258,7 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue			FgColor		"LowHealthRed"	Linear 0.0 0.075
+	Animate PlayerStatusHealthValue			FgColor		"RobinYellow"	Linear 0.0 0.075
 	Animate PlayerStatusHealthValue			FgColor		"WhiteS"		Linear 0.125 0.075
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
@@ -280,9 +280,9 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	AmmoInReserve		fgcolor		"RobinYellow"		Linear 0.0 0.075
+	Animate	AmmoInReserve		fgcolor		"LowAmmo"		Linear 0.0 0.075
 	Animate	AmmoInReserve		fgcolor		"WhiteS"			Linear 0.125 0.075
-	Animate AmmoNoClip			fgcolor		"RobinYellow"		Linear 0.0 0.075
+	Animate AmmoNoClip			fgcolor		"LowAmmo"		Linear 0.0 0.075
 	Animate AmmoNoClip 			fgcolor		"WhiteS"			Linear 0.125 0.075
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -454,11 +454,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"RobinGreen"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"White"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"RobinYellow"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"RobinPurple"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"RobinGreen"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"RobinPurple"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"RobinYellow"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -474,8 +474,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"WhiteS"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"RobinGreen"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"RobinYellow"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"RobinPurple"		Linear 0.0 0.0001
 }
 
 //====================================

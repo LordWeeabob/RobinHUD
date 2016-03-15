@@ -22,7 +22,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"RobinBlue"
+			"fillcolor"		"65 97 120 200"
 			"scaleImage"		"1"
 		}
 		"RedScoreBG"
@@ -37,7 +37,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"RobinRed"
+			"fillcolor"		"158 48 49 200"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
@@ -57,7 +57,25 @@
 			"fgcolor"		"White"
 			"visible"		"1"
 			"enabled"		"1"
-		}	
+		}
+		"BlueTeamLabelBG"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BlueTeamLabelBG"
+			"font"			"FFGiant"
+			"labelText"		"%blueteamname%"
+			"textAlignment"		"west"
+			"xpos"			"57"
+			"ypos"			"15"
+			"zpos"			"4"
+			"wide"			"100"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"fgcolor"		"Black"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 		
 		"BlueTeamScore"
 		{
@@ -138,9 +156,28 @@
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"fgcolor"		"White"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
+		"RedTeamLabelBG"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RedTeamLabelBG"
+			"font"			"FFGiant"
+			"labelText"		"%redteamname%"
+			"textAlignment"		"east"
+			"xpos"			"225"
+			"ypos"			"15"
+			"zpos"			"4"
+			"wide"			"100"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"fgcolor"		"Black"
+			"visible"		"1"
+			"enabled"		"1"
+		}		
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -225,7 +262,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"ScoreboardTeamName"
+		"font"			"FFBig"
 		"xpos"			"15"
 		"ypos"			"72"
 		"zpos"			"1"
@@ -244,7 +281,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"ScoreboardTeamName"
+		"font"			"FFBig"
 		"fgcolor"		"black"
 		"xpos"			"16"
 		"ypos"			"73"
@@ -264,7 +301,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"FFBig"
 		"xpos"			"15"
 		"ypos"			"72"
 		"zpos"			"1"
@@ -283,7 +320,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"font"			"ScoreboardMedium"
+		"font"			"FFBig"
 		"fgcolor"		"black"
 		"xpos"			"16"
 		"ypos"			"73"
@@ -303,7 +340,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FFRegular"
 		"xpos"			"15"
 		"ypos"			"89"
 		"zpos"			"1"
@@ -322,7 +359,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FFSmall"
 		"xpos"			"15"
 		"ypos"			"101"
 		"zpos"			"1"
@@ -351,14 +388,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 250"
+		"fillcolor"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FFRegular"
 		"xpos"			"18"
 		"ypos"			"114"
 		"zpos"			"3"
@@ -377,7 +414,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FFSmall"
 		"xpos"			"139"
 		"ypos"			"114"
 		"zpos"			"3"
@@ -406,7 +443,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"250 234 201 255"
+		"fillcolor"		"255 255 255 255"
 		"PaintBackgroundType"	"0"
 	}
 	"Player1Medal"
@@ -442,6 +479,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"56"
 		"ypos"			"132"
 		"zpos"			"3"
@@ -460,6 +498,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"183"
 		"ypos"			"132"
 		"zpos"			"3"
@@ -478,6 +517,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Score"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"243"
 		"ypos"			"132"
 		"zpos"			"3"
@@ -525,6 +565,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"56"
 		"ypos"			"154"
 		"zpos"			"3"
@@ -543,6 +584,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"183"
 		"ypos"			"154"
 		"zpos"			"3"
@@ -561,6 +603,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Score"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"243"
 		"ypos"			"154"
 		"zpos"			"3"
@@ -608,6 +651,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"56"
 		"ypos"			"176"
 		"zpos"			"3"
@@ -626,6 +670,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"183"
 		"ypos"			"176"
 		"zpos"			"3"
@@ -644,6 +689,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"243"
 		"ypos"			"176"
 		"zpos"			"3"
@@ -664,7 +710,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FFSmall"
 		"xpos"			"18"
 		"ypos"			"195"
 		"zpos"			"3"
@@ -683,7 +729,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FFSmall"
 		"xpos"			"139"
 		"ypos"			"195"
 		"zpos"			"3"
@@ -748,6 +794,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"56"
 		"ypos"			"213"
 		"zpos"			"3"
@@ -766,6 +813,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"183"
 		"ypos"			"213"
 		"zpos"			"3"
@@ -784,6 +832,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
+		"font"			"SquaresBoldSmall"
 		"xpos"			"243"
 		"ypos"			"213"
 		"zpos"			"3"

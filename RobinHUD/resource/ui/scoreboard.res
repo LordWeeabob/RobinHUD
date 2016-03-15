@@ -22,7 +22,7 @@
 		"nemesis_width"		"50"	[$WIN32]
 		"class_width"		"15"	[$WIN32]
 		"score_width"		"30"
-		"ping_width"		"15"	[$WIN32]
+		"ping_width"		"25"	[$WIN32]
 		"stats_width"		"15"
 		"killstreak_width"	"15"
 	}
@@ -650,7 +650,7 @@
 		"xpos"			"120"
 		"ypos"			"275"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"360"
+		"wide"			"380"
 		"tall"			"55	"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -739,7 +739,7 @@
 		"xpos"			"120"
 		"ypos"			"335"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"360"
+		"wide"			"380"
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -761,7 +761,7 @@
 		"xpos"			"120"
 		"ypos"			"335"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"360"
+		"wide"			"380"
 		"tall"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
