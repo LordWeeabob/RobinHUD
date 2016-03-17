@@ -354,10 +354,17 @@
 
 	"topbar"
 	{
-		"ControlName"	"Panel"
+		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"visible"		"0"
-		"tall"			"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"30"	[$WIN32]
+		"wide"			"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
 	}
 	"BottomBar"
 	{
@@ -388,7 +395,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"WeblySleek14"
+		"font"			"FFBig"
 	}
 	"BuyBackLabel"
 	{
