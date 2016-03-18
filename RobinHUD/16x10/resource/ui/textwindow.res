@@ -160,7 +160,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -195,7 +195,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -230,7 +230,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	"MOTD_LineLeftShadow"
@@ -264,7 +264,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	"MOTD_LineRightShadow"

@@ -133,9 +133,9 @@
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"RobinYellow"
-		"depressedFgColor_override" "RobinYellow"
-		"selectedFgColor_override" 	"RobinYellow"
+		"armedFgColor_override"		"TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MapInfoWatchIntro" [$WIN32]
@@ -186,9 +186,9 @@
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override"		"RobinYellow"
-		"depressedFgColor_override" "RobinYellow"
-		"selectedFgColor_override" 	"RobinYellow"
+		"armedFgColor_override"		"TanDark"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MenuBG"
@@ -237,7 +237,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -272,7 +272,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -307,7 +307,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	"MapInfo_LineLeftShadow"
@@ -341,7 +341,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"RobinYellow"
+		"fillcolor"		"White"
 		"PaintBackgroundType"	"0"
 	}
 	"MapInfo_LineRightShadow"
