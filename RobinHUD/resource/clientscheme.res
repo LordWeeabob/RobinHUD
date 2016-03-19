@@ -24,7 +24,7 @@ Scheme
 		"WhiteS"			"225 225 225 255"
 		"Buff"				"71 168 198 255"
 		"Overheal"			"255 0 255 255"
-		"LowAmmo"			"0 255 0 255"
+		"LowAmmo"			"135 206 250 255"
 		"RobinGreen"		"110 213 94 200"
 		"RobinYellow"		"255 222 0 255"
 		"RobinPurple"		"255 0 255 255"
