@@ -11,10 +11,10 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
-	"topbar"
+	"shadedtopbar"
 	{
-		"ControlName"		"Panel"
-		"fieldName"		"TopBar"
+		"ControlName"		"ImagePanel"
+		"fieldName"		"shadedTopBar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"tall"			"30"	[$WIN32]
@@ -23,6 +23,37 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fillcolor"		"0 0 0 250"
+		"tabPosition"		"0"
+	}
+	"RobinBorderTop"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RobinBorderTop"
+		"xpos"			"0"
+		"ypos"			"30"
+		"tall"			"1"	[$WIN32]
+		"wide"			"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"RobinYellow"
+		"tabPosition"		"0"
+	}
+	"RobinBorderTopShadow"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RobinBorderTopShadow"
+		"xpos"			"0"
+		"ypos"			"31"
+		"tall"			"1"	[$WIN32]
+		"wide"			"f0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Black"
 		"tabPosition"		"0"
 	}
 	"BottomBar"
@@ -61,8 +92,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	
+		"xpos"			"c-150"	[$WIN32]
+		"ypos"			"5"
+		"zpos"			"1"
 		"wide"			"600"	
 		"tall"			"24"
 		"autoResize"		"0"

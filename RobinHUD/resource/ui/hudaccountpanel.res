@@ -71,7 +71,6 @@
 		"fieldName"		"AccountValue"
 		"xpos"			"20"
 		"ypos"			"112"
-		"ypos_lodef"	"121"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"26"
