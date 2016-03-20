@@ -81,7 +81,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r386"	[$WIN32]
+		"xpos"			"c41"	[$WIN32]
 		"ypos"			"r140"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
@@ -179,11 +179,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"r350"	[$WIN32]
+		"ypos"					"r282"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -1011,8 +1008,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r376"	[$WIN32]
-		"ypos"			"r155"	[$WIN32]
+		"xpos"			"c75"	[$WIN32]
+		"ypos"			"r175"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 	}	
@@ -1162,7 +1159,7 @@
 		"wide"					"150"
 		"tall"					"25"
 	}
-	
+
 	HudArenaClassLayout [$WIN32]
 	{
 		"fieldName"				"HudArenaClassLayout"		

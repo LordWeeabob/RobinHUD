@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c120"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"			"c51"	[$WIN32]
+		"ypos"			"c115"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -39,15 +37,14 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"30"
-		"ypos"					"25"
+		"xpos"					"17"
+		"ypos"					"12"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"textAlignment_minmode"			"east"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
@@ -65,7 +62,7 @@
 		"xpos"					"0"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"75"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

@@ -62,7 +62,7 @@
 		
 	}	
 
-		"ObjectiveStatusTimePanel"
+	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"

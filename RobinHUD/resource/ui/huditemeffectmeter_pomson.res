@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c60"	[$WIN32]
-		"ypos"			"c108"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"			"c52"	[$WIN32]
+		"ypos"			"c98"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,7 +23,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
@@ -38,8 +36,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"65"
-		"ypos"					"12"
+		"xpos"					"20"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -66,7 +64,7 @@
 		"xpos"					"0"
 		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"100"
+		"wide"					"75"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
