@@ -32,5 +32,5 @@ RobinHUD is a project that started in early 2015 when I grew tired of trying to 
 
 **b4stian** - Also used some parts as a base. 
 
-**Kolorblind** - Highlander teammate & friend who gave me insight on making the hud more colorblind friendly.
+**Kolorblind** - Highlander teammate & friend who gave me insight on making the hud more colorblind friendly and beta testing the hud on 16x10 resolutions.
 
