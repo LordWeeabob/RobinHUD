@@ -16,7 +16,7 @@ RobinHUD is a project that started in early 2015 when I grew tired of trying to 
 
 **Q:** How do I find out when RobinHUD is updated?
 
-**A:** Join the steam group posted above or message me on the twitter also linked above.
+**A:** Join the steam group posted above or check the twitter also linked above.
 
 **Q:** Does this HUD work on OSX/Linux?
 
