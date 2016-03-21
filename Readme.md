@@ -24,4 +24,5 @@ RobinHUD is a project that started in early 2015 when I grew tired of trying to 
 * Toggleable Scoreboards for 6v6 and 9v9
 * Add Mann vs Machine Support
 * Add Matchmaking HUD(Currently I think the MM hud looks good on its own so this is a **MAYBE**)
+* Add OSX and Linux support
 
