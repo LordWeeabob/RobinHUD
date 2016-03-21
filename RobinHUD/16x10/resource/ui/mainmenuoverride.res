@@ -174,6 +174,11 @@
 		"image"			""
 		"scaleImage"	"1"
 		
+		if_operation
+		{
+			"image"		"../console/title_team_tough_break"
+		}
+		
 		if_halloween_0
 		{
 			"image"		"../console/title_team_halloween2011"
@@ -214,10 +219,35 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 150"
+		"fillcolor"		"0 0 0 250"
 		
 	}
-					
+	"MainMenuBGBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuBGBorder"
+		"xpos"			"200"
+		"ypos"			"0"
+		"zpos"			"-99"
+		"wide"			"1"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"RobinYellow"
+	}
+	"MainMenuBGBorderShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuBGBorderShadow"
+		"xpos"			"201"
+		"ypos"			"0"
+		"zpos"			"-99"
+		"wide"			"1"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Black"
+	}			
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"

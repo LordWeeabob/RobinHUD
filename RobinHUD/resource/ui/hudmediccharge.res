@@ -35,7 +35,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"RobinPurple"
+		"fgcolor"		"RobinYellow"
 		"font"			"RailRoadFontBigger"
 	}
 
@@ -57,7 +57,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"RobinPurple"
+		"fgcolor"		"RobinYellow"
 		"font"			"SquaresBoldBig"
 	}
 	
