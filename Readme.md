@@ -20,8 +20,15 @@ RobinHUD is a project that started in early 2015 when I grew tired of trying to 
 
 
 ##TO-DO List:##
+* Add Backpack and Loadout Support
 * Add support for 4x3 resolutions
 * Toggleable Scoreboards for 6v6 and 9v9
 * Add Mann vs Machine Support
 * Add Matchmaking HUD(Currently I think the MM hud looks good on its own so this is a **MAYBE**)
+* Add OSX and Linux support
+
+###Credits:####
+**Flatline** - I originally used parts of FlatHUD as a base for some of the elements of my own, but they later evolved beyond it.
+
+**Kolorblind** - Highlander teammate & friend who gave me insight on making the hud more colorblind friendly.
 
