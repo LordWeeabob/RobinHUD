@@ -44,7 +44,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"FFGiant"
+			"font"			"FFBigger"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"56"
@@ -62,7 +62,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabelBG"
-			"font"			"FFGiant"
+			"font"			"FFBigger"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"57"
@@ -146,7 +146,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"FFGiant"
+			"font"			"FFBigger"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"224"
@@ -164,7 +164,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabelBG"
-			"font"			"FFGiant"
+			"font"			"FFBigger"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"225"
