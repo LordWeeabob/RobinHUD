@@ -30,5 +30,7 @@ RobinHUD is a project that started in early 2015 when I grew tired of trying to 
 ###Credits:####
 **Flatline** - I originally used parts of FlatHUD as a base for some of the elements of my own, but they later evolved beyond it.
 
+**b4stian** - Also used some parts as a base. 
+
 **Kolorblind** - Highlander teammate & friend who gave me insight on making the hud more colorblind friendly.
 
