@@ -90,6 +90,7 @@
 		"font"			"FFRegular"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
+		"fgcolor"		"RobinYellow"
 		"xpos"			"0"
 		"ypos"			"-5"
 		"zpos"			"4"
@@ -116,6 +117,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White"
 		"wrap"			"0"
 	}
 
@@ -135,6 +137,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		"fgcolor"		"RobinYellow"
 		"wrap"			"1"
 	}
 

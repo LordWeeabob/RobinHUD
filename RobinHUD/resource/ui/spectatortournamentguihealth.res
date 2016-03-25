@@ -86,8 +86,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"WeblySleek14"
-		"fgcolor"		"Spec Health Normal"
+		"font"			"SquaresBoldSmall"
+		"fgcolor"		"White"
 	}		
 	"PlayerStatusHealthValueSpectatorShadow"
 	{
@@ -102,7 +102,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"WeblySleek14"
+		"font"			"SquaresBoldSmall"
 		"fgcolor"		"TransparentBlack"
 	}		
 }

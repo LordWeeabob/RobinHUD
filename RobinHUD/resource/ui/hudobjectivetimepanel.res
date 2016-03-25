@@ -222,13 +222,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"15"
-		"ypos"			"33"
+		"xpos"			"12"
+		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
@@ -236,6 +234,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
+		"fgcolor"		"RobinYellow"
 		"font"			"FFRegular"
 
 		if_comp

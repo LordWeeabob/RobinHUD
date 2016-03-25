@@ -117,7 +117,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"WeblySleek12"
+				"font"			"FFSmall"
 				"xpos"			"25"
 				"ypos"			"-1"
 				"zpos"			"5"
@@ -227,7 +227,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"WeblySleek12"
+				"font"			"FFSmall"
 				"xpos"			"143"
 				"ypos"			"1"
 				"zpos"			"5"
@@ -245,7 +245,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeBG"
-				"font"			"WeblySleek12"
+				"font"			"FFSmall"
 				"xpos"			"145"
 				"ypos"			"2"
 				"zpos"			"5"
@@ -282,7 +282,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"WeblySleek12"
+				"font"			"RailroadFontRegular"
 				"xpos"			"121"
 				"ypos"			"1"
 				"zpos"			"6"
@@ -293,13 +293,13 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
-				"fgcolor"		"Spec Health Buff"
+				"fgcolor"		"255 0 0 255"
 			}
 			"chargeamountBG"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"WeblySleek12"
+				"font"			"RailroadFontRegular"
 				"xpos"			"122"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -358,7 +358,7 @@
 		"fieldName"		"shadedTopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"tall"			"30"	[$WIN32]
+		"tall"			"35"	[$WIN32]
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -372,7 +372,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RobinBorderTop"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"35"
 		"tall"			"1"	[$WIN32]
 		"wide"			"f0"
 		"autoResize"		"0"
@@ -387,7 +387,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RobinBorderTopShadow"
 		"xpos"			"0"
-		"ypos"			"31"
+		"ypos"			"36"
 		"tall"			"1"	[$WIN32]
 		"wide"			"f0"
 		"autoResize"		"0"

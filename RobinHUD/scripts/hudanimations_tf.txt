@@ -218,11 +218,11 @@ Animate PlayerStatusHealthValueShadow1 FgColor "255 255 255 255" Linear 0.0 0.0
 Animate PlayerStatusHealthValueShadow Alpha "255" Linear 0.0 0.1
 Animate PlayerStatusHealthValueShadow FgColor "255 0 205 255" Linear 0.0 0.0
 
-Animate SpectatorPlayerStatusHealthValue FgColor "WhiteS" Linear 0.0 0.2
-Animate SpectatorPlayerStatusHealthValue FgColor "235 235 235 255" Linear 0.2 0.4
+Animate SpectatorPlayerStatusHealthValue FgColor "White" Linear 0.0 0.2
+Animate SpectatorPlayerStatusHealthValue FgColor "Buff" Linear 0.2 0.4
 
-Animate SpectatorPlayerStatusHealthValue2 FgColor "WhiteS" Linear 0.0 0.2
-Animate SpectatorPlayerStatusHealthValue2 FgColor "235 235 235 255" Linear 0.2 0.4
+Animate SpectatorPlayerStatusHealthValue2 FgColor "White" Linear 0.0 0.2
+Animate SpectatorPlayerStatusHealthValue2 FgColor "Buff" Linear 0.2 0.4
 
 }
 
