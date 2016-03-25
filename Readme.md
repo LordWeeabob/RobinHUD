@@ -1,6 +1,6 @@
 #RobinHUD
 
-RobinHUD is a project that started in early 2015 when I grew tired of trying to pick a hud I was completely happy with from the directory on Huds.tf. Its aim is to provide a change from the current selection of custom HUDs being dominated by minimalism. 
+RobinHUD is a project that started in early 2015 when I grew tired of trying to pick a hud I was completely happy with from the directory on Huds.tf.
 
 **Current Version:** 1.0
 
