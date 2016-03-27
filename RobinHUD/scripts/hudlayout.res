@@ -180,7 +180,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c75"	[$WIN32]
-		"ypos"					"r282"	[$WIN32]
+		"ypos"					"r295"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"

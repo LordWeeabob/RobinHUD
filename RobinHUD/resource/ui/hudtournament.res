@@ -442,6 +442,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 250"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	
 	}
 	"HudTournamentRobinBorderLeft"
@@ -456,6 +463,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"RobinYellow"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	
 	}
 	"HudTournamentRobinBorderRight"
@@ -470,6 +484,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"RobinYellow"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	
 	}
 	"HudTournamentRobinBorderRightShadow"
@@ -484,6 +505,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Black"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	
 	}
 	"HudTournamentRobinBorderLeftShadow"
@@ -498,6 +526,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Black"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	
 	}
 	"HudTournamentRobinBorderBottom"
@@ -512,6 +547,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"RobinYellow"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	
 	}
 
@@ -527,6 +569,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Black"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	
 	}
 	"HudTournamentBG"
@@ -542,9 +591,15 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"0 0 0 250"
+		"image"			"../HUD/tournament_panel_brown"
 		"proportionaltoparent"	"1"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
 		
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
+				
 		if_mvm
 		{
 			"visible"		"0"
@@ -556,6 +611,7 @@
 			"ypos"			"12"
 			"tall"			"20"
 			"visible"		"1"
+			"enabled"		"1"
 		}
 		
 		if_readymode
@@ -614,6 +670,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"RobinBlue"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	}
 	"HudTournamentBLUEBG"
 	{
@@ -740,6 +803,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"RobinRed"
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	}
 	"HudTournamentREDBG"
 	{
@@ -904,8 +974,13 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"fillcolor"			"0 0 0 250"
-	
-	
+		
+		"if_competitive"
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		
+		}
 	}
 	"HudTournamentBGHelp"
 	{
