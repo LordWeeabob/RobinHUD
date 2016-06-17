@@ -20,7 +20,9 @@ Scheme
 	{
 		//RobinHuD Colors
 		"RobinRed"			"158 48 49 255"
-		"RobinBlue" 		"65 97 120 255"
+		"RobinBlue" 		"60 90 120 255"
+		"RobinBlueBright"	"100 150 200 255"
+		"RobinRedBright"	"228 118 119 255"
 		"WhiteS"			"225 225 225 255"
 		"Buff"				"71 168 198 255"
 		"Overheal"			"255 0 255 255"
@@ -2959,6 +2961,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Blocks48"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
 	}
 	
 	//////////////////// CUSTOM FONTS /////////////////////////
@@ -3069,7 +3081,230 @@ Scheme
 				}
 			}
 		}
-		
+		RobinBorderBlue
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"	"2"
+			Left
+			{
+				"1"
+				{
+					"color" 	"RobinBlue"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinBlue"
+					"offset"	"0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{	"color"		"RobinBlue"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinBlue"
+					"offset"	"1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color"		"RobinBlue"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinBlue"
+					"offset"	"0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color"		"RobinBlue"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinBlue"
+					"offset"	"0 0"
+				}
+			}
+		}
+		RobinBorderRed
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"	"2"
+			Left
+			{
+				"1"
+				{
+					"color" 	"RobinRed"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinRed"
+					"offset"	"0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{	"color"		"RobinRed"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinRed"
+					"offset"	"1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color"		"RobinRed"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinRed"
+					"offset"	"0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color"		"RobinRed"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinRed"
+					"offset"	"0 0"
+				}
+			}
+		}
+		RobinBorderYellow
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"	"2"
+			Left
+			{
+				"1"
+				{
+					"color" 	"RobinYellow"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinYellow"
+					"offset"	"0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{	"color"		"RobinYellow"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinYellow"
+					"offset"	"1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color"		"RobinYellow"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinYellow"
+					"offset"	"0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color"		"RobinYellow"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"RobinYellow"
+					"offset"	"0 0"
+				}
+			}
+		}
+		RobinBorderWhite
+		{
+			"inset" "0 0 1 1"
+			"backgroundtype"	"2"
+			Left
+			{
+				"1"
+				{
+					"color" 	"White"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"White"
+					"offset"	"0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{	"color"		"White"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"White"
+					"offset"	"1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color"		"White"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"White"
+					"offset"	"0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color"		"White"
+					"offset"	"0 0"
+				}
+				"2"
+				{
+					"color" 	"White"
+					"offset"	"0 0"
+				}
+			}
+		}
 		ScrollBarButtonBorder
 		{
 			"inset" "0 0 0 0"
@@ -5241,30 +5476,31 @@ Scheme
 			"font" "resource/fonts/Railroader.ttf"
 			"name" "Railroader Regular"
 		}
+
 		"8"
-		{
-			"font" "resource/fonts/Saniretro.ttf"
-			"name" "Saniretro Regular"
-		}
-		"9"
 		{
 			"font" "resource/fonts/Square.ttf"
 			"name" "SquaresBold"
 		}
-		"10"
+		"9"
 		{
 			"font"	"resource/fonts/forgotten_futurist_rg.ttf"
 			"name"	"ForgottenFuturistRg-Regular"
 		}
-		"11"
+		"10"
 		{
 			"font"	"resource/fonts/Mobile Sans.ttf"
 			"name"	"Mobile Sans"
 		}
-		"12"
+		"11"
 		{
 			"font" "resource/fonts/adventure.otf"
 			"name"	"Adventure"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name"	"Blocks"
 		}
 	}
 }

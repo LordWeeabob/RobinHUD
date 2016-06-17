@@ -443,7 +443,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"WeblySleek14"
+		"font"			"FFRegular"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -580,7 +580,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"WeblySleek8"
+			"font"			"FFSmall"
 			"xpos"			"135"
 			"ypos"			"0"
 			"zpos"			"1"

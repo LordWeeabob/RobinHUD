@@ -400,7 +400,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"WeblySleek8"
+			"font"			"FFSmall"
 			"xpos"			"135"
 			"ypos"			"0"
 			"zpos"			"1"

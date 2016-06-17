@@ -455,12 +455,12 @@ event HudTournamentSetupPanelClose
 event HudMedicCharged
 {
 
-	Animate	ChargeMeter 		FgColor		"Red"			Linear 0.0 0.2
-	Animate	ChargeMeter 		FgColor		"Orange"		Linear 0.2 0.2
-	Animate	ChargeMeter 		FgColor		"255 255 0 255"		Linear 0.4 0.2
-	Animate	ChargeMeter 		FgColor		"0 255 0 255"		Linear 0.6 0.2
-	Animate	ChargeMeter 		FgColor		"0 0 255 0"		Linear 0.8 0.2
-	Animate	ChargeMeter 		FgColor		"255 0 255 255"		Linear 1.0 0.2
+	Animate	ChargeLabel 		FgColor		"Red"			Linear 0.0 0.2
+	Animate	ChargeLabel 		FgColor		"Orange"		Linear 0.2 0.2
+	Animate	ChargeLabel 		FgColor		"255 255 0 255"		Linear 0.4 0.2
+	Animate	ChargeLabel 		FgColor		"0 255 0 255"		Linear 0.6 0.2
+	Animate	ChargeLabel 		FgColor		"0 0 255 0"		Linear 0.8 0.2
+	Animate	ChargeLabel 		FgColor		"255 0 255 255"		Linear 1.0 0.2
 
 	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
 	Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
@@ -479,8 +479,9 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"RobinYellow"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
+	
 }
 
 //====================================
@@ -1363,4 +1364,13 @@ event HudTournament_ShowRoundSign
     SetVisible RoundSignModel 1 0
     RunEventChild RoundSignModel HudTournament_PlaySignAnim 0
     SetVisible RoundSignModel 0 6
+}
+event WinPanel_CompPos
+{
+Animate WinPanel ypos 115 Linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+Animate WinPanel ypos 215 Linear 0 0
 }
